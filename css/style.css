@@ -1,0 +1,41 @@
+body {
+  padding-top: 56px; /* space for fixed navbar */
+}
+
+/* Hero */
+.hero {
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+}
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 5rem 1rem;
+}
+
+/* Logo image */
+.navbar-brand img {
+  height: 32px;
+  width: 32px;
+  object-fit: contain;
+  margin-right: 0.5rem;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #dee2e6;
+}
+
+/* Data page */
+.table-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
